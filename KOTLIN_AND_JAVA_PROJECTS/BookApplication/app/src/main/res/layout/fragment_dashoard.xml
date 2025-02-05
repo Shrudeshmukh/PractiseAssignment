@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.DashoardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dashboard Page" />
+
+    <EditText
+        android:id="@+id/nameBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="Book Title"/>
+    <EditText
+        android:id="@+id/authorBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="Book Author"/>
+    <Button
+        android:id="@+id/addBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="Add Book"/>
+    <Button
+        android:id="@+id/deleteBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="Delete Book"/>
+    <Button
+        android:id="@+id/updateBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="Update Book"/>
+    <Button
+        android:id="@+id/viewBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:hint="View All Book"/>
+    <ListView
+        android:id="@+id/lvBookHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>

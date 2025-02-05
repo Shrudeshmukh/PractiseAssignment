@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookLendingApp</string>
+    <string-array name="countries">
+        <item>India</item>
+        <item>UK</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Banaglore</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
